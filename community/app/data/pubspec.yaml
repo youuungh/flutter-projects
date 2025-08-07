@@ -1,0 +1,17 @@
+name: data
+description: "community data package."
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  domain:
+    path: ../domain
+
+  core_util:
+    path: ../../core/util

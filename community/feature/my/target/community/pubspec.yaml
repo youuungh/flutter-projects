@@ -1,0 +1,33 @@
+name: feature_my
+description: "feature my package."
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  my_data:
+    path: ../../data
+  my_domain:
+    path: ../../domain
+  my_presentation:
+    path: ../../presentation
+
+#  my_di:
+#    path: ../../di
+
+  core_flutter_bloc:
+    path: ../../../../core/flutter_bloc
+  core_util:
+    path: ../../../../core/util
+
+  tool_community_component:
+    path: ../../../../tool/community/component
+  tool_community_network:
+    path: ../../../../tool/community/network
+  tool_community_theme:
+    path: ../../../../tool/community/theme

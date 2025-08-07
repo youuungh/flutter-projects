@@ -1,0 +1,22 @@
+name: search_data
+description: "feature search data package."
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  search_domain:
+    path: ../domain
+
+  core_storage:
+    path: ../../../core/storage
+  core_util:
+    path: ../../../core/util
+
+  tool_community_network:
+    path: ../../../tool/community/network

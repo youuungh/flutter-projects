@@ -1,0 +1,20 @@
+name: my_data
+description: "feature my data package."
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  my_domain:
+    path: ../domain
+
+  core_util:
+    path: ../../../core/util
+
+  tool_community_network:
+    path: ../../../tool/community/network

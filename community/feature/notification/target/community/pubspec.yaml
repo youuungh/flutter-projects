@@ -1,0 +1,41 @@
+name: feature_notification
+description: "feature notification ui package."
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  notification_data:
+    path: ../../data
+  notification_domain:
+    path: ../../domain
+  notification_presentation:
+    path: ../../presentation
+
+#  notification_di:
+#    path: ../../di
+
+  core_flutter_bloc:
+    path: ../../../../core/flutter_bloc
+  core_util:
+    path: ../../../../core/util
+
+  tool_community_component:
+    path: ../../../../tool/community/component
+  tool_community_network:
+    path: ../../../../tool/community/network
+  tool_community_theme:
+    path: ../../../../tool/community/theme
+
+#  presentation:
+#    path: ../../../../app/community/presentation
+#  ui:
+#    path: ../../../../app/community/ui
+#
+#  feature_community:
+#    path: ../../../../feature/community/target/community

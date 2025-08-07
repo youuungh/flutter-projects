@@ -1,0 +1,14 @@
+name: core_bloc
+description: "core bloc package."
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc: ^9.0.0
+  equatable: 2.0.5

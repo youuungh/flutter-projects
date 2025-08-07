@@ -1,0 +1,29 @@
+name: feature_community_example
+description: "feature community example."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  feature_community:
+    path: ../community
+  feature_search:
+    path: ../../../search/target/community
+
+  tool_community_component:
+    path: ../../../../tool/community/component
+  tool_community_network:
+    path: ../../../../tool/community/network
+  tool_community_theme:
+    path: ../../../../tool/community/theme
+
+  core_util:
+    path: ../../../../core/util

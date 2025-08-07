@@ -1,0 +1,8 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+linter:
+  rules:
+    # 문서화 규칙 비활성화
+    public_member_api_docs: false
+    # package import 강제 사용 규칙 완화
+    always_use_package_imports: false

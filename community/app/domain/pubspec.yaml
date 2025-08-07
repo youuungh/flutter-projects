@@ -1,0 +1,11 @@
+name: domain
+description: "community domain package."
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  core_util:
+    path: ../../core/util

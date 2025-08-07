@@ -1,0 +1,79 @@
+name: community
+description: "ninezero flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  firebase_core: ^3.15.1
+  firebase_remote_config: ^5.4.7
+
+  data:
+    path: ../data
+  domain:
+    path: ../domain
+  presentation:
+    path: ../presentation
+
+  core_flutter_bloc:
+    path: ../../core/flutter_bloc
+  core_util:
+    path: ../../core/util
+
+  feature_community:
+    path: ../../feature/community/target/community
+  feature_my:
+    path: ../../feature/my/target/community
+  feature_notification:
+    path: ../../feature/notification/target/community
+  feature_search:
+    path: ../../feature/search/target/community
+
+  tool_community_network:
+    path: ../../tool/community/network
+  tool_community_theme:
+    path: ../../tool/community/theme
+
+  icons_launcher: ^3.0.1
+  flutter_native_splash: ^2.4.6
+
+icons_launcher:
+  image_path: assets/icons/androidAppIcon.png
+  platforms:
+    android:
+      enable: true
+      adaptive_background_color: "#121212"
+      adaptive_foreground_image: assets/icons/androidAppIcon.png
+      adaptive_round_image: assets/icons/androidAppIcon.png
+    ios:
+      enable: true
+      image_path: assets/icons/iOSAppIcon.png
+
+flutter_native_splash:
+  color: "#121212"
+  image: assets/icons/splash.png
+  color_dark: "#121212"
+  image_dark: assets/icons/splash.png
+  android: true
+  ios: true
+  web: false
+  android_12:
+    color: "#121212"
+    image: assets/icons/android12Splash.png
+    icon_background_color: "#121212"
+    color_dark: "#121212"
+    image_dark: assets/icons/android12Splash.png
+    icon_background_color_dark: "#121212"
+  android_gravity: center
+  ios_content_mode: center
+
+dev_dependencies:
+  very_good_analysis: ^9.0.0

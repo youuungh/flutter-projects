@@ -51,8 +51,8 @@ docker run -it -p 8080:8080 waviz-server
 
 ```
 bin/
-├── auth/           # 사용자 인증 관련
-├── category/       # 카테고리 관리
+├── auth/          # 사용자 인증 관련
+├── category/      # 카테고리 관리
 ├── home/          # 홈 화면 API
 ├── project/       # 프로젝트 관리
 ├── router/        # API 라우팅
